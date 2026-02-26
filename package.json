@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint -c .eslintrc.cjs \"src/**/*.{ts,tsx,js,jsx}\"",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -18,8 +19,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^10.0.2",
-    "eslint-config-next": "^0.2.4",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^16.1.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
