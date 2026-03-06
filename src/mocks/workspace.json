@@ -1,0 +1,234 @@
+{
+  "workspace": [
+    {
+      "nombre": "Workspace 1",
+      "color": "bg-blue-600",
+      "tableros": [
+        {
+          "nombre": "board 1",
+          "listas": [
+            {
+              "nombre": "Planning",
+              "cards": [
+                {
+                  "desc": "Planificaciones para el fin de semana",
+                  "etiquetas": [
+                    {
+                      "nombre": "Urgente",
+                      "color": "bg-magenta-600"
+                    },
+                    {
+                      "nombre": "Salida",
+                      "color": "bg-cyan-600"
+                    }
+                  ],
+                  "miembros": [
+                    {
+                      "usuario": "Marcos",
+                      "email": "marcos@marcos.com",
+                      "color": "bg-blue-600"
+                    },
+                    {
+                      "usuario": "Leo",
+                      "email": "leo@leo.com",
+                      "color": "bg-yellow-600"
+                    },
+                    {
+                      "usuario": "dai",
+                      "email": "dai@dai.com",
+                      "color": "bg-red-600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Delivery",
+              "cards": [
+                {
+                  "desc": "Cosmeticos",
+                  "etiquetas": [
+                    {
+                      "nombre": "Urgente",
+                      "color": "bg-magenta-600"
+                    },
+                    {
+                      "nombre": "Misc",
+                      "color": "bg-cyan-600"
+                    }
+                  ],
+                  "miembros": [
+                    {
+                      "usuario": "Marcos",
+                      "email": "marcos@marcos.com",
+                      "color": "bg-blue-600"
+                    },
+                    {
+                      "usuario": "Leo",
+                      "email": "leo@leo.com",
+                      "color": "bg-yellow-600"
+                    },
+                    {
+                      "usuario": "dai",
+                      "email": "dai@dai.com",
+                      "color": "bg-red-600"
+                    }
+                  ]
+                },
+                {
+                  "desc": "Alimentos",
+                  "etiquetas": [
+                    {
+                      "nombre": "Urgente",
+                      "color": "bg-magenta-600"
+                    },
+                    {
+                      "nombre": "Alimento",
+                      "color": "bg-cyan-600"
+                    }
+                  ],
+                  "miembros": [
+                    {
+                      "usuario": "Marcos",
+                      "email": "marcos@marcos.com",
+                      "color": "bg-blue-600"
+                    },
+                    {
+                      "usuario": "Leo",
+                      "email": "leo@leo.com",
+                      "color": "bg-yellow-600"
+                    },
+                    {
+                      "usuario": "dai",
+                      "email": "dai@dai.com",
+                      "color": "bg-red-600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Evaluation and learning",
+              "cards": [{}]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Workspace 2",
+      "color": "bg-yellow-600",
+      "tableros": [
+        {
+          "nombre": "board 1",
+          "listas": [
+            {
+              "nombre": "Planning",
+              "cards": [
+                {
+                  "desc": "Planificaciones para el fin de semana",
+                  "etiquetas": [
+                    {
+                      "nombre": "Urgente",
+                      "color": "bg-magenta-600"
+                    },
+                    {
+                      "nombre": "Salida",
+                      "color": "bg-cyan-600"
+                    }
+                  ],
+                  "miembros": [
+                    {
+                      "usuario": "Marcos",
+                      "email": "marcos@marcos.com",
+                      "color": "bg-blue-600"
+                    },
+                    {
+                      "usuario": "Leo",
+                      "email": "leo@leo.com",
+                      "color": "bg-yellow-600"
+                    },
+                    {
+                      "usuario": "dai",
+                      "email": "dai@dai.com",
+                      "color": "bg-red-600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Delivery",
+              "cards": [
+                {
+                  "desc": "Cosmeticos",
+                  "etiquetas": [
+                    {
+                      "nombre": "Urgente",
+                      "color": "bg-magenta-600"
+                    },
+                    {
+                      "nombre": "Misc",
+                      "color": "bg-cyan-600"
+                    }
+                  ],
+                  "miembros": [
+                    {
+                      "usuario": "Marcos",
+                      "email": "marcos@marcos.com",
+                      "color": "bg-blue-600"
+                    },
+                    {
+                      "usuario": "Leo",
+                      "email": "leo@leo.com",
+                      "color": "bg-yellow-600"
+                    },
+                    {
+                      "usuario": "dai",
+                      "email": "dai@dai.com",
+                      "color": "bg-red-600"
+                    }
+                  ]
+                },
+                {
+                  "desc": "Alimentos",
+                  "etiquetas": [
+                    {
+                      "nombre": "Urgente",
+                      "color": "bg-magenta-600"
+                    },
+                    {
+                      "nombre": "Alimento",
+                      "color": "bg-cyan-600"
+                    }
+                  ],
+                  "miembros": [
+                    {
+                      "usuario": "Marcos",
+                      "email": "marcos@marcos.com",
+                      "color": "bg-blue-600"
+                    },
+                    {
+                      "usuario": "Leo",
+                      "email": "leo@leo.com",
+                      "color": "bg-yellow-600"
+                    },
+                    {
+                      "usuario": "dai",
+                      "email": "dai@dai.com",
+                      "color": "bg-red-600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Evaluation and learning",
+              "cards": [{}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

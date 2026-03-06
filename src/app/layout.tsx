@@ -26,11 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="min-h-screen font-sans bg-linear-to-br from-blue-600 via-sky-500 to-cyan-400">
-          <Navbar/>
-        {children}
+          <Navbar />
+          <main>{children}</main>
         </div>
       </body>
     </html>
