@@ -6,6 +6,8 @@
       "tableros": [
         {
           "nombre": "board 1",
+          "color": "bg-cyan-600",
+          "starred": true,
           "listas": [
             {
               "nombre": "Planning",
@@ -121,6 +123,8 @@
       "tableros": [
         {
           "nombre": "board 1",
+          "color": "bg-red-600",
+          "starred": false,
           "listas": [
             {
               "nombre": "Planning",

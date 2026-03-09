@@ -1,7 +1,7 @@
 "use client"
 
-import Workspace from "@/components/Workspace";
-import workspace from "../mocks/workspace.json";
+import Workspace from "@/components/Inicio/Workspace";
+import workspace from "../../mocks/workspace.json";
 import { useState } from "react";
 
 const WorkspaceContainer = () => {
