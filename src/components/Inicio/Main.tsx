@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import workspace from "../../mocks/workspace.json";
+import workspace from "@/mocks/workspace.json";
 import Table from "./Table";
 
 

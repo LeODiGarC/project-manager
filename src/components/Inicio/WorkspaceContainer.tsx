@@ -1,8 +1,9 @@
 "use client"
 
 import Workspace from "@/components/Inicio/Workspace";
-import workspace from "../../mocks/workspace.json";
+import workspace from "@/mocks/workspace.json";
 import { useState } from "react";
+import { Plus } from "lucide-react";
 
 const WorkspaceContainer = () => {
   const espacios = workspace?.workspace;
@@ -15,20 +16,7 @@ const WorkspaceContainer = () => {
       <div className="flex flex-col gap-5">
         <button className="flex items-center justify-between text-gray-400 cursor-pointer transition-colors hover:text-gray-600">
           <p className="text-xs">Espacios de trabajo</p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="lucide lucide-plus-icon lucide-plus">
-            <path d="M5 12h14" />
-            <path d="M12 5v14" />
-          </svg>
+          <Plus />
         </button>
         {espacios &&
           espacios.map((w, i) => {
